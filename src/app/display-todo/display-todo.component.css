@@ -1,0 +1,21 @@
+li {
+  list-style: none;
+}
+
+.date-span {
+  float: right;
+}
+.card {
+  border-radius: 1rem;
+  box-sizing: border-box;
+  border-color: black;
+}
+.container-fluid {
+  margin-top: 1rem;
+}
+i {
+  font-size: 30px;
+}
+span {
+  margin-right: 1rem;
+}

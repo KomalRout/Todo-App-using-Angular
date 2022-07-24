@@ -1,0 +1,8 @@
+<div *ngIf="todo">
+  <div>
+    <p>{{ todo.id }}</p>
+  </div>
+  <textarea rows="10" cols="10" [(ngModel)]="todo.task"></textarea>
+  <input type="text" [(ngModel)]="todo.created_date" #created_date="ngModel" />
+  <button (click)="save()">Save</button>
+</div>

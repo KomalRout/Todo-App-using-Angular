@@ -1,0 +1,17 @@
+<div class="form-group">
+  <div class="md-form mb-4 pink-textarea active-pink-textarea">
+    <textarea #task rows="10" cols="100" class="md-textarea"></textarea>
+  </div>
+
+  <label>DATE: &nbsp;&nbsp;</label>
+  <input
+    placeholder="Select date"
+    type="date"
+    id="example"
+    class="form-control"
+    #date
+  /><br />
+  <button (click)="add(task.value, date.value)" class="btn btn-primary">
+    Submit
+  </button>
+</div>

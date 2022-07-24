@@ -1,0 +1,12 @@
+.pink-textarea textarea.md-textarea {
+  border: 0.2rem solid #f48fb1;
+  box-shadow: 0 0.1rem 0 0 #f48fb1;
+  border-radius: 10px;
+  margin: 10px;
+}
+.active-pink-textarea.md-form {
+  color: #f48fb1;
+}
+.active-pink-textarea.md-form textarea.md-textarea {
+  color: #f48fb1;
+}
